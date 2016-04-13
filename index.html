@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            #map {
+                width:100%;
+                height: 500px;
+            }
+            #chart_div{width:100%;}
+        </style>
+    </head>
+    <body>
+        <header></header>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Vendor Listing</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 id="placeTitle"></h2>
+                        <strong id="placeAddress"></strong>
+                        <p id="openDays"></p>
+                        <p id="openTime"></p>
+                        <div id="chart_div"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                    </div>    
+                </div>    
+            </div>    
+        </footer>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZkT1wCGssn9LgPBkxIKluASJVO5H7lr0"
+        ></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="js/jquery-2.2.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/myapp.js"></script>
+    </body>
+</html>
