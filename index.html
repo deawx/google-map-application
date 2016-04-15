@@ -1,62 +1,36 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html lang="en">
+<!doctype html>
+<html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <style>
-            html, body {
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            #map {
-                width:100%;
-                height: 500px;
-            }
-            #chart_div{width:100%;}
-        </style>
+        <title>Farm Market</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body>
-        <header></header>
-        <section>
-            <div class="container-fluid">
+
+    <body class="homepage">
+        <div class="header">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h1>Vendor Listing</h1>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 id="placeTitle"></h2>
-                        <strong id="placeAddress"></strong>
-                        <p id="openDays"></p>
-                        <p id="openTime"></p>
-                        <div id="chart_div"></div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="map"></div>
+                    <div class="col-xs-12">
+                        <h3 class="text-center">Go Veg</h3>
                     </div>
                 </div>
             </div>
-        </section>
-        <footer>
-            <div class="container-fluid">
+        </div>
+        <div class="body-container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                    </div>    
-                </div>    
-            </div>    
-        </footer>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZkT1wCGssn9LgPBkxIKluASJVO5H7lr0"
-        ></script>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script src="js/jquery-2.2.2.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/myapp.js"></script>
+                    <div class="col-xs-6">
+                        <div class="button-block text-center"> <a href="recipes.html" class="btn btn-primary">Latest Recipes</a> </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="button-block text-center"> <a href="vendor.html" class="btn btn-primary">Vendor Information</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
 </html>
